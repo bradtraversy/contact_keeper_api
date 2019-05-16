@@ -1,0 +1,24 @@
+{
+	"name": "contact_keeper_api",
+	"version": "1.0.0",
+	"description": "Backend for Contact Keeper app",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js",
+		"server": "nodemon server.js"
+	},
+	"author": "Brad Traversy",
+	"license": "MIT",
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"config": "^3.1.0",
+		"express": "^4.16.4",
+		"express-validator": "^5.3.1",
+		"jsonwebtoken": "^8.5.1",
+		"mongoose": "^5.5.8"
+	},
+	"devDependencies": {
+		"concurrently": "^4.1.0",
+		"nodemon": "^1.19.0"
+	}
+}
