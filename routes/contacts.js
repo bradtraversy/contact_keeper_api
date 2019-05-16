@@ -31,7 +31,8 @@ router.post(
 		[
 			check('name', 'Name is required')
 				.not()
-				.isEmpty()
+				.isEmpty(),
+			check('type').isIn(['personal', 'professional'])
 		]
 	],
 	async (req, res) => {
