@@ -1,6 +1,6 @@
 # Contact Keeper API
 
-This is a Node/Express/MongoDB REST API for contacts that uses JWT authentication. All contact endpoints are protected and each registered user has their own contacts. This API will be used in my "Modern React Front To Back" course but feel free to use it as a reference for creating your own similar APIs
+This is a Node/Express/MongoDB REST API for contacts that uses JWT authentication. All contact endpoints are protected and each registered user has their own contacts. This is used in my React course on Udemy. It is the API ONLY. The fullstack app can be found [here](https://github.com/bradtraversy/contact-keeper)
 
 ## Getting Started
 
