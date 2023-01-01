@@ -11,7 +11,7 @@
 	"license": "MIT",
 	"dependencies": {
 		"bcryptjs": "^2.4.3",
-		"config": "^3.1.0",
+		"config": "^3.3.8",
 		"express": "^4.16.4",
 		"express-validator": "^5.3.1",
 		"jsonwebtoken": "^8.5.1",
